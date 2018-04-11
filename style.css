@@ -1,0 +1,38 @@
+h1{
+  font-size: 150px;
+  color: lightblue;
+  font-family: georgia;
+  padding-bottom: 50px;
+}
+h4 {
+font-size: 60px;
+color: solid black;
+font-family: georgia;
+font-style: italic;
+}
+
+.sidhuvud {
+  background-color: blue;
+   background-image: url("https://icase.azureedge.net/imagevaultfiles/id_50777/cf_6099/rapsfalt.jpg");
+   background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+
+}
+
+
+.sprak h3{
+font-size: 40px;
+color: grey;
+font-family: Arial;
+padding-bottom: 20px
+}
+.sprak img {height: 100px;}
+
+.nyhet {
+  padding: 30px;
+}
+
+.topprubrik h2 {
+  font-size: 50px
+}
