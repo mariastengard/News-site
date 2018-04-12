@@ -1,38 +1,204 @@
 h1{
-  font-size: 150px;
-  color: lightblue;
+  font-size: 140px;
+  color: teal;
   font-family: georgia;
-  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-top: 25px;
+  margin-bottom: 0px;
+
 }
 h4 {
-font-size: 60px;
+font-size: 40px;
 color: solid black;
 font-family: georgia;
-font-style: italic;
+padding-bottom: 150px;
+padding-left: 50px;
+margin-top: 0px;
 }
 
+.container
+{
+  margin: 50px;
+
+  background-color: azure;
+}
+
+
 .sidhuvud {
-  background-color: blue;
+
    background-image: url("https://icase.azureedge.net/imagevaultfiles/id_50777/cf_6099/rapsfalt.jpg");
    background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
 
+margin: 0px;
 }
 
 
 .sprak h3{
 font-size: 40px;
-color: grey;
-font-family: Arial;
-padding-bottom: 20px
+color: #000000;
+font-family: Georgia;
+padding-bottom: 20px;
+padding-top: 20px;
 }
-.sprak img {height: 100px;}
+
+.sprakrubbe
+{padding-left: 50px;
+  padding-bottom: 15px;
+padding-top: 15px;}
+
+.sprakbilder
+{
+  display: flex;
+justify-content:flex-start;}
+
+.sprakbilder img {
+  padding-top: 15px;
+  padding-bottom: 10px;
+
+}
+
+
+
+
+
+.sprak img {height: 50px;
+padding: 10px;
+padding-top: 30px}
+
+.sprak
+{
+  display: flex;
+justify-content:flex-start;}
+
+.sprak img {
+    filter: opacity(70%);
+}
+
+.sprak {
+  background-color: PaleTurquoise;
+}
+
+
+.toppnyhet
+{display: flex;
+justify-content: center;}
+
+
+.nyhet
+a:link {
+    color: black;
+}
+a:visited {
+    color: black;
+}
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
 
 .nyhet {
+
   padding: 30px;
 }
 
+.nyhet img {
+  width: 100%;
+}
+
+
 .topprubrik h2 {
   font-size: 50px
+}
+
+.toppbild
+img{height:450px;
+}
+
+.undernyhet{
+display: flex;
+ justify-content: center;
+ }
+
+ .undernyhet h2 {
+   font-size: 45px;
+   padding-top: 15px;
+   padding-bottom: 15px;
+ }
+
+.fyrlingar{
+  display: flex;
+  justify-content: center;
+}
+.fyrlingar h2 {font-size: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;}
+
+
+
+
+
+
+@media (max-width: 600px)
+
+{ h1 {font-size: 60px;
+  padding-left: 20px;
+  padding-top: 40px;
+  color: black;
+
+}
+
+h4 {font-size: 25px;
+padding-top: 30px;
+padding-left: 20px;
+padding-bottom: 20px;}
+
+.sprak h3 {font-size: 18px;}
+
+.sprak img {height: 30px;
+padding-top: 15px;
+padding.border-bottom: 15px;}
+
+.sprakrubbe
+{padding-left: 20px;
+  padding-top: 0px;
+  padding-bottom: 20px;
+}
+
+
+.undernyhet h2 {font-size: 30px;}
+
+.fyrlingar h2 {font-size: 20px;}
+
+.sprak {
+  background-color: PaleTurquoise;
+  height: 60px;
+}
+
+.undernyhet{
+display: block;
+ }
+
+.fyrlingar{
+  display: block;
+}
+
+.sidhuvud {
+   background-image: url("https://comps.canstockphoto.se/värld-glob-stock-illustrationer_csp20604671.jpg");
+   background-repeat: no-repeat;
+background-size: 100%;
+background-position: center;
+margin: 0px;
+}
+.sprakbilder {overflow-x: scroll;
+
+}
+
 }
