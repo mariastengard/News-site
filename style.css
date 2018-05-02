@@ -74,8 +74,13 @@ justify-content:flex-start;}
   height: 50px;
 }
 
-
-
+.flagga img {
+  height: 30px;
+  padding: 10px;
+  margin-top: 50px;
+  padding-top: 10px
+  padding-bottom: 10px;
+ }
 
 
 
@@ -83,8 +88,27 @@ justify-content:flex-start;}
 {display: flex;
 justify-content: center;}
 
+.nyhet {
+
+  padding: 30px;
+}
+
+.nyhet img {
+  width: 350px;
+  height: 200px;
+}
+
+.nyhet h2 {
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+.nyhet p {margin-top: 20px;
+  margin-bottom: 20px;
+font-size: 20px}
 
 .nyhet
+
 a:link {
     color: black;
 }
@@ -102,34 +126,6 @@ a:hover {
 }
 
 
-.nyhet {
-
-  padding: 30px;
-}
-
-.nyhet img {
-  width: 100%;
-}
-
-
-.topprubrik h2 {
-  font-size: 50px
-}
-
-.toppbild
-img{height:450px;
-}
-
-.undernyhet{
-display: flex;
- justify-content: center;
- }
-
- .undernyhet h2 {
-   font-size: 45px;
-   padding-top: 15px;
-   padding-bottom: 15px;
- }
 
 .fyrlingar{
   display: flex;
@@ -183,7 +179,7 @@ padding.border-bottom: 15px;}
   height: 40px;
 }
 
-.undernyhet{
+.toppnyhet{
 display: block;
  }
 
