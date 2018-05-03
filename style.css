@@ -100,7 +100,7 @@ justify-content: center;}
 
 .nyhet h2 {
   font-size: 30px;
-  padding-bottom: 20px;
+  ;
 }
 
 .nyhet p {margin-top: 20px;
@@ -132,8 +132,7 @@ a:hover {
   justify-content: center;
 }
 .fyrlingar h2 {font-size: 30px;
-  padding-top: 15px;
-  padding-bottom: 15px;}
+  padding-top: 15px;}
 
 
 
@@ -160,8 +159,8 @@ padding-bottom: 20px;}
 .sprak h3 {font-size: 18px;}
 
 .sprak img {height: 30px;
-padding-top: 15px;
-padding.border-bottom: 15px;}
+padding-top: 10px;
+}
 
 .sprakrubbe
 {padding-left: 20px;
@@ -172,7 +171,7 @@ padding.border-bottom: 15px;}
 
 .undernyhet h2 {font-size: 30px;}
 
-.fyrlingar h2 {font-size: 20px;}
+.fyrlingar h2 {font-size: 30px;}
 
 .sprak {
   background-color: LightSkyBlue;
